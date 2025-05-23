@@ -10,5 +10,5 @@
     "ms-python.python",
     "ms-toolsai.jupyter"
   ],
-  "postCreateCommand": "./.devcontainer/setup.sh"
+  "postCreateCommand": "/tmp/setup.sh"
 }
