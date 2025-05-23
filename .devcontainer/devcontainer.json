@@ -10,5 +10,5 @@
     "ms-python.python",
     "ms-toolsai.jupyter"
   ],
-  "postCreateCommand": "/tmp/setup.sh"
+  "postCreateCommand": "sudo apt-get update"
 }
