@@ -1,6 +1,9 @@
 FROM codercom/enterprise-base:ubuntu
 
-RUN sudo apt update
+USER root
+
+COPY .devcontainer/setup.sh /tmp/setup.sh
+RUN chmod +x /tmp/setup.sh
 
 USER coder
 WORKDIR /home/coder/project
