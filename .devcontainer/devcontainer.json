@@ -3,9 +3,5 @@
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-  "extensions": [
-    "ms-python.python",
-    "ms-toolsai.jupyter"
-  ],
   "postCreateCommand": "pip3 install -r ./requirements.txt"
 }
