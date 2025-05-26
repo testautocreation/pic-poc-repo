@@ -1,7 +1,5 @@
 {
-  "name": "Python Dev",
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
-  },
-  "postCreateCommand": "pip3 install -r ./requirements.txt"
+  "postCreateCommand": "pip3 install -r ./requirements.txt",
+  "build": {
+    "dockerfile": "../Dockerfile"
 }
