@@ -7,5 +7,5 @@
     "ms-python.python",
     "ms-toolsai.jupyter"
   ],
-  "postCreateCommand": "sudo bash ./setup.sh"
+  "postCreateCommand": "pip3 install -r ./requirements.txt"
 }
