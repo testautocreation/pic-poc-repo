@@ -1,5 +1,8 @@
 {
     "customizations": {
+        "build": {
+            "dockerfile": "Dockerfile"
+        },
 		"vscode": {
 			"extensions": [
                 "ms-python.python",
@@ -8,6 +11,5 @@
                 "ms-kubernetes-tools.vscode-kubernetes-tools"
             ]
 		}
-	},
-    "postCreateCommand": "curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash"
+	}
 }
