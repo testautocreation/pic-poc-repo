@@ -7,7 +7,7 @@
                 "ms-azuretools.vscode-azureresourcegroups",
                 "ms-kubernetes-tools.vscode-kubernetes-tools"
             ]
-		},
-        "postCreateCommand": "curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash"
-	}
+		}
+	},
+    "postCreateCommand": "curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash"
 }
